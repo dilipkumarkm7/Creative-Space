@@ -29,7 +29,6 @@ app.post("", async (req, res) => {
           subject: `New message from ${senderName} - ${subject}`,
           replyTo: senderEmail,
           html: `
-     //  <h3>Contact Form Submission</h3>
       <p><strong>Name:</strong> ${senderName}</p>
       <p><strong>Email:</strong> ${senderEmail}</p>
       <p><strong>Subject:</strong> ${subject}</p>
